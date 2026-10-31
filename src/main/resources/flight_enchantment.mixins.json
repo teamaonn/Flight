@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.joshuasedwards.flightenchantment.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "PlayerFlightMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

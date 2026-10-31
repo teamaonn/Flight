@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "flight_enchantment",
+  "version": "${version}",
+  "name": "Flight Enchantment",
+  "description": "Adds a simple boots-only Flight enchantment. Flying consumes hunger like sprinting.",
+  "authors": [
+    "Joshua S. Edwards"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.joshuasedwards.flightenchantment.FlightEnchantmentMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3.x",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "mixins": [
+    "flight_enchantment.mixins.json"
+  ]
+}

@@ -1,0 +1,4 @@
+pluginManagement { repositories { maven { url = 'https://maven.fabricmc.net/' }; mavenCentral(); gradlePluginPortal() } }
+dependencyResolutionManagement { repositories { maven { url = 'https://maven.fabricmc.net/' }; mavenCentral() } }
+rootProject.name = 'flight-enchantment-fabric-26.3'
+
